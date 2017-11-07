@@ -11,45 +11,38 @@ folder: mydoc
 ---
 
 
-You can create a glossary for your content. First create your glossary items in a data file such as glossary.yml.
+Data visualization:
+: {{site.data.glossary.data_visualization}}
 
-Then create a page and use definition list formatting, like this:
+Information product:
+: {{site.data.glossary.information_product}}
 
-fractious
-: {{site.data.glossary.fractious}}
+Infographic:
+: {{site.data.glossary.infographic}}
 
-gratuitous
-: {{site.data.glossary.gratuitous}}
+Visual analytics:
+: {{site.data.glossary.visual_analytics}}
 
-haughty
-: {{site.data.glossary.haughty}}
+visualization_type:
+: {{site.data.glossary.visualization_type}}
 
-gratuitous
-: {{site.data.glossary.gratuitous}}
+MUST:
+: {{site.data.glossary.must}}
 
-impertinent
-: {{site.data.glossary.intrepid}}
+MUST NOT:
+: {{site.data.glossary.must_not}}
 
-Here's the code:
+SHOULD:
+: {{site.data.glossary.should}}
 
-```
-{% raw %}fractious
-: {{site.data.glossary.fractious}}
+SHOULD NOT:
+: {{site.data.glossary.should_not}}
 
-gratuitous
-: {{site.data.glossary.gratuitous}}
+MAY:
+: {{site.data.glossary.may}}
 
-haughty
-: {{site.data.glossary.haughty}}
 
-gratuitous
-: {{site.data.glossary.gratuitous}}
-
-impertinent
-: {{site.data.glossary.intrepid}}{% endraw %}
-```
-
-The glossary works well as a link in the top navigation bar.
+<!-- The glossary works well as a link in the top navigation bar.
 
 ## Horizontally styled definiton lists
 
@@ -75,37 +68,7 @@ You can also change the definition list (`dl`) class to `dl-horizontal`. This is
 <dt id="intrepid">intrepid</dt>
 <dd>{{site.data.glossary.intrepid}}</dd>
 
-</dl>
-
-For this type of list, you must use HTML. The list would then look like this:
-
-```html
-{% raw %}<dl class="dl-horizontal">
-
-<dt id="fractious">fractious</dt>
-<dd>{{site.data.glossary.fractious}}</dd>
-
-<dt id="gratuitous">gratuitous</dt>
-<dd>{{site.data.glossary.gratuitous}}</dd>
-
-<dt id="haughty">haughty</dt>
-<dd>{{site.data.glossary.haughty}}</dd>
-
-<dt id="benchmark_id">gratuitous</dt>
-<dd>{{site.data.glossary.gratuitous}}</dd>
-
-<dt id="impertinent">impertinent</dt>
-<dd>{{site.data.glossary.impertinent}}</dd>
-
-<dt id="intrepid">intrepid</dt>
-<dd>{{site.data.glossary.intrepid}}</dd>
-
-</dl>{% endraw %}
-```
-
-If you squish your screen small enough, at a certain breakpoint this style reverts to the regular `dl` class.
-
-Although I like the side-by-side view for shorter definitions, I found it problematic with longer definitions.
+</dl> -->
 
 
 {% include links.html %}

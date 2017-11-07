@@ -1,11 +1,19 @@
-jekyll_platform: "Jekyll is a static site generator that builds sites using most modern web technologies."
+data_visualization: "Data visualization is an umbrella term, usually covering both information and scientific visualization.  This is a general way of talking about anything that converts data sources into a visual representation (like charts, graphs, maps, sometimes even just tables)."
 
-fractious: "Like a little mischevious child, full of annoying and constant trouble."
+information_product: "An information product is a broad term, covering most statistical charts and graphs but also other visual/spatial metaphors that can be used to represent data sets that don't have inherent spatial components."
 
-gratuitous: "Something that is unwarranted and uncouth, like the social equivalent of a flagrant foul."
+infographic: "A specific sort of genre of visualizations.  Infographics have become popular on the web as a way of combining various statistics and visualizations with a narrative and, sometimes, a polemic."
 
-haughty: "Proud and flaunting it. Holding your head high up like a snooty, too-good-for-everything rich person."
+visual_analytics: "The practice of using visualizations to analyze data.  In some research, visualizations can support more formal statistical tests by allowing researchers to interact with the data points directly without aggregating or summarizing them.  Even simple scatter plots, when the variables are chosen carefully, can show outliers, dense regions, bimodalities, etc. In fields where the data themselves are visual (e.g., medical fields), visual analytics may actually be the primary means of analyzing data.  The process of analyzing data through visualization is itself studied by researchers in the visual analytics field."
 
-impertinent: "Someone acting rude and insensitive to others."
+visualization_type: "Higher order visualization categories as defined by the data taxonomy from: [Shneiderman, B. (1996). The eyes have it: A task by data type taxonomy for information visualizations. Proceedings of IEEE Symposium on Visual Languages - Boulder, CO (pp. 336-343).](http://www.interactiondesign.us/courses/2011_AD690/PDFs/Shneiderman_1996.pdf)"
 
-intrepid: "Brave and courageous especially in a difficult, dangerous situation."
+must: "This word, or the terms 'REQUIRED' or 'SHALL', mean that the definition is an absolute requirement of the specification."
+
+must_not: "This phrase, or the phrase 'SHALL NOT', mean that the definition is an absolute prohibition of the specification."
+
+should: "This word, or the adjective 'RECOMMENDED', mean that there may exist valid reasons in particular circumstances to ignore a particular item, but the full implications must be understood and carefully weighed before choosing a different course."
+
+should_not: "This phrase, or the phrase 'NOT RECOMMENDED' mean that there may exist valid reasons in particular circumstances when the particular behavior is acceptable or even useful, but the full implications should be understood and the case carefully weighed before implementing any behavior described with this label."
+
+may: "This word, or the adjective 'OPTIONAL', mean that an item is truly optional.  One vendor may choose to include the item because a particular marketplace requires it or because the vendor feels that it enhances the product while another vendor may omit the same item. An implementation which does not include a particular option MUST be prepared to interoperate with another implementation which does include the option, though perhaps with reduced functionality. In the same vein an implementation which does include a particular option MUST be prepared to interoperate with another implementation which does not include the option (except, of course, for the feature the option provides.)"
